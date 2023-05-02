@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df79f6d5352bf814d8b48cbe1ca39d20, type: 3}
   m_Name: lover
   m_EditorClassIdentifier: 
-  Stamina: 0
-  Luck: 0
-  Attack: 0
-  Defense: 0
+  Stamina: 20
+  Luck: 50
+  Attack: 200
+  Defense: 400
   Name: Holi
   Image: {fileID: 21300000, guid: fc058afc709c81e4582de82d4a477358, type: 3}

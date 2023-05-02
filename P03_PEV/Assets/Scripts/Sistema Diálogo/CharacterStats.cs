@@ -12,4 +12,12 @@ public class CharacterStats : ScriptableObject
 
     public string Name;
     public Sprite Image;
+
+    public float GetAttack()
+    {
+        if(Random.Range(0,100)<Luck)
+            return (int)Attack * 2;
+        
+        return (int)Attack;
+    }
 }
