@@ -15,6 +15,8 @@ public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
 
     private DialogueNode _currentNode;
 
+    private GameObject _talker;
+
     void Awake() // es com el start, però abans; es fa servir per fer 1 cop el que es necessiti abans del start. 
     {
         if(Instance == null)
@@ -31,8 +33,9 @@ public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
         _animator = GetComponent<Animator>();
     }
 
-    public void StartDialogue(Dialogue dialogue) //mostrar el diàleg nou fet.
+    public void StartDialogue(Dialogue dialogue, GameObject talker) //mostrar el diàleg nou fet.
     {
+        _talker = talker;   
         Name.text = dialogue.Name;
         SetNode(dialogue.StartNode);
         Show();
@@ -41,7 +44,17 @@ public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
     public void OptionChosen(int number)
     {
         DialogueNode nextNode = _currentNode.Options[number].NextNode;
-        SetNode(nextNode);
+        if(nextNode is EndNode)//preguntem si es EndNode pero aqui encara no sap que es endnode
+        {
+            //li diem que es endnode
+            EndNode endNode = nextNode as EndNode;
+            endNode.EndAction(_talker); //fes-me la endAction
+            Hide();
+        }
+        else
+        {
+            SetNode(nextNode);
+        }
     }
 
     private void SetNode(DialogueNode node)

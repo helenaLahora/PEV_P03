@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: DarPorCubo
   m_EditorClassIdentifier: 
   Speech: Te voy a matar
-  Options: []
+  Options:
+  - Text: Era broma poma
+    NextNode: {fileID: 11400000, guid: f23ec3c75d2a9ae47bba7cfde290413f, type: 2}

@@ -12,7 +12,7 @@ public class DialogueTrigger : MonoBehaviour
         if(other.tag == "Player")//còmprovem que el que hagi entrat es el player (no fer servir a casa)
         {
             //DialogueManager.Instance.Show();//un cop preparat puc dir que es mostri
-            DialogueManager.Instance.StartDialogue(Dialogue);
+            DialogueManager.Instance.StartDialogue(Dialogue, gameObject);
         }
     }
 }
