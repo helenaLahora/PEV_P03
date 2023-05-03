@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
     public TextMeshProUGUI Speech;
     public TextMeshProUGUI[] Options;//Array de textos amb opcions que te el jugador per clicar
 
+    private DialogueNode _currentNode;
+
     void Awake() // es com el start, però abans; es fa servir per fer 1 cop el que es necessiti abans del start. 
     {
         if(Instance == null)
@@ -36,8 +38,15 @@ public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
         Show();
     }
 
+    public void OptionChosen(int number)
+    {
+        DialogueNode nextNode = _currentNode.Options[number].NextNode;
+        SetNode(nextNode);
+    }
+
     private void SetNode(DialogueNode node)
     {
+        _currentNode = node;
         Speech.text = node.Speech;
         for (int i = 0; i < Options.Length; i++)
         {

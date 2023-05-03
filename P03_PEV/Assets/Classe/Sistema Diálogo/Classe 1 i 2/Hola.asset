@@ -21,4 +21,4 @@ MonoBehaviour:
   - Text: Me gustan las galletas
     NextNode: {fileID: 11400000, guid: 749583762ec36e9419d4af8df9657eb8, type: 2}
   - Text: No me importas
-    NextNode: {fileID: 11400000, guid: 749583762ec36e9419d4af8df9657eb8, type: 2}
+    NextNode: {fileID: 11400000, guid: 69a549a69d70c764dba0f684826ccac1, type: 2}
