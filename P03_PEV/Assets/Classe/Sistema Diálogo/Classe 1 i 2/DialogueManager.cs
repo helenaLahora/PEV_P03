@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
 {
 
     public static DialogueManager Instance;
@@ -28,6 +28,13 @@ public class DialogueManager : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
     }
+
+    public void StartDialogue(Dialogue dialogue) //mostrar el diàleg nou fet.
+    {
+        Name.text = dialogue.Name;
+        Show();
+    }
+
     public void Show()
     {
         _animator.SetBool("Show", true);
