@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc467f6f25262a4387e7bab1f5ea9d3, type: 3}
+  m_Name: Hola
+  m_EditorClassIdentifier: 
+  Speech: "Ma\xF1ana me ir\xE9 con mi mama comer canelones :D"
+  Options:
+  - Text: Que te den por culo
+    NextNode: {fileID: 0}
+  - Text: Que forma tan bonita
+    NextNode: {fileID: 0}
+  - Text: Me gustan las galletas
+    NextNode: {fileID: 0}
+  - Text: No me importas
+    NextNode: {fileID: 0}
