@@ -32,7 +32,25 @@ public class DialogueManager : MonoBehaviour //pot mostrar qualsevol diàleg
     public void StartDialogue(Dialogue dialogue) //mostrar el diàleg nou fet.
     {
         Name.text = dialogue.Name;
+        SetNode(dialogue.StartNode);
         Show();
+    }
+
+    private void SetNode(DialogueNode node)
+    {
+        Speech.text = node.Speech;
+        for (int i = 0; i < Options.Length; i++)
+        {
+            if (i < node.Options.Count)
+            {
+                Options[i].transform.parent.gameObject.SetActive(true);
+                Options[i].text = node.Options[i].Text;
+            }
+            else
+            {
+                Options[i].transform.parent.gameObject.SetActive(false);
+            }
+        }
     }
 
     public void Show()
