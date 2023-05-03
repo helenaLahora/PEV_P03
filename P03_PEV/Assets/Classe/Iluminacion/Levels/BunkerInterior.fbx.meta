@@ -5,6 +5,231 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat__Luzpasillos
+    second: {fileID: 2100000, guid: 0d31eab2a4ef81c4fa53110146d02b55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_barana
+    second: {fileID: 2100000, guid: 782c27a65fd5d7549ab9cb33f60ace54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_base
+    second: {fileID: 2100000, guid: 57c2eae7ed6170e4ba10955ecdf1808e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_base1erpiso
+    second: {fileID: 2100000, guid: 196ce64b536765b469fa3db4cad30d25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_baseint
+    second: {fileID: 2100000, guid: 2294673cbf56420498bb252d7d5b3df7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_cables
+    second: {fileID: 2100000, guid: ac775dd6e94e0cb4e82a2bd061b50593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_cablitos
+    second: {fileID: 2100000, guid: bfacd7dcd23051b4bbc9433bdc525941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_cablote
+    second: {fileID: 2100000, guid: bd67bdd80e4a1bd42a1b80850cddf5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_circuloext
+    second: {fileID: 2100000, guid: 2644ae24929e79948a239219fec45ac3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_circuloint
+    second: {fileID: 2100000, guid: 7ecafeea1b07b274a9832017dbb18d95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_columna
+    second: {fileID: 2100000, guid: 5ab48699b08a95e4cb9b169ef8636aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_columnaIzq
+    second: {fileID: 2100000, guid: f6436ae8a438ef54cae3af41699b75a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_entradabunker
+    second: {fileID: 2100000, guid: d8df1c426dd7fee4386ddde927177f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_entradabunker1
+    second: {fileID: 2100000, guid: 093beb76d19a03c4a9340c6b4b66ec8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_entradazulo
+    second: {fileID: 2100000, guid: 77dd4e2e19811ea43b4a9c214c977f7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_escalon
+    second: {fileID: 2100000, guid: 1cf46fc1fdf72c9459ee9222627c9806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_lcd
+    second: {fileID: 2100000, guid: c9efe88653388e84ba8be7141a60bacd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mostrador
+    second: {fileID: 2100000, guid: 9f184222c72148f42999116aafc3aebc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_murotapa
+    second: {fileID: 2100000, guid: 4a9e6c37cf5bace4986631a562466e40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_nucleo
+    second: {fileID: 2100000, guid: 3fed084345b69174fb809eb74eebb00f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_oraculo
+    second: {fileID: 2100000, guid: be01c3535c7f82045b29d42012b65b10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_pared
+    second: {fileID: 2100000, guid: 83ac65a9cc69821448408d522ce9c416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_paredexit
+    second: {fileID: 2100000, guid: 67ed51cd6d9278c4393737e501f64a28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_paredfront
+    second: {fileID: 2100000, guid: bcd23c82c5b055744a379d4a19f927e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_paredposterior
+    second: {fileID: 2100000, guid: 422aab089e6ce034d9ccf420459145a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_poste
+    second: {fileID: 2100000, guid: 5d625975931f54e4e92968e72badaf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_puertas
+    second: {fileID: 2100000, guid: 6ecfd1bf882b43b4cae3d1af96aea019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_rejilla
+    second: {fileID: 2100000, guid: 058077d0e88482c41a6df81c3985ea60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_rejillatope
+    second: {fileID: 2100000, guid: 8c2558182ff1ace49a3a8721445cc6c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_suelocentral
+    second: {fileID: 2100000, guid: f826245b7548a024e816c2dc29ce16d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_suelozulo
+    second: {fileID: 2100000, guid: 601c62e0ffb19114e9218df2f93d0f02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_surtidor
+    second: {fileID: 2100000, guid: 2df07f8fe63fa6f458f03427cbc8a560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_techo
+    second: {fileID: 2100000, guid: 319dc971ed41b064f94703a4bee4d472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_techosaliente
+    second: {fileID: 2100000, guid: 019f5709724d981439c7e0309ba5a033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_techozuloext
+    second: {fileID: 2100000, guid: ae73f811885df1548aef7c3f07623865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_teclado
+    second: {fileID: 2100000, guid: b90f2e282d4c2e447a156aa000a0fe9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_tubolow
+    second: {fileID: 2100000, guid: 9a65c5c4b434d08489469650e32a4bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_tubote
+    second: {fileID: 2100000, guid: ab5b53cb5ee226b4384e63a89774ff20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_tuerca
+    second: {fileID: 2100000, guid: 403da67ed6aa85047a68730d70ec050b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_tvmini
+    second: {fileID: 2100000, guid: d3ac137774ac1f74ea4fc6d97ace1057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_tvtop
+    second: {fileID: 2100000, guid: b48b0f6592b619240a8f1001475dab69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_webbig
+    second: {fileID: 2100000, guid: fd6dd1b588369d1489d2224c59034ea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_webbig1
+    second: {fileID: 2100000, guid: 53f2254d69eca644c99f7410baf63a0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_webbig2
+    second: {fileID: 2100000, guid: 92b640724623c814d89ebd5f8e19eec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_zuloint
+    second: {fileID: 2100000, guid: ffff8a566c3904c49a0787518ba49bc3, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: LucesPasillo_colorA
@@ -273,7 +498,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.099999994
+    globalScale: 10
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
