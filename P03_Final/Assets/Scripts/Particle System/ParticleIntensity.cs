@@ -5,12 +5,6 @@ using UnityEngine;
 public class ParticleIntensity : MonoBehaviour
 {
     [SerializeField] private new ParticleSystem[] particleSystem;
-    public float valor;
-
-    private void Start()
-    {
-        Intensity(valor);
-    }
 
     public void OnOff(float rate)
     {
@@ -29,6 +23,7 @@ public class ParticleIntensity : MonoBehaviour
             ParticleSystem.EmissionModule emission;
             emission = particle.emission;
             emission.rateOverTime = intens;
+            intens += 5;
         }
     }
 
