@@ -15690,6 +15690,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: -7905849497158184116, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7891163424168291849, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
         type: 3}
       propertyPath: m_Layer
@@ -15829,6 +15834,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5934280854631939081, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5898653232141146909, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
         type: 3}
@@ -16169,6 +16179,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1669274036340539508, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1655326358626136237, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
         type: 3}
@@ -16895,6 +16910,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7103153012782714218, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7109989669349563735, guid: d774ee3d079b4fe43ba47ccd298ea0b3,
         type: 3}
       propertyPath: m_Layer
@@ -17235,7 +17255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1066532005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40085,7 +40105,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 12.24
+      scalar: 4.8
       minScalar: 1
       maxCurve:
         serializedVersion: 2
