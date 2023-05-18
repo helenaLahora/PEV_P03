@@ -18,13 +18,15 @@ public class ParticleIntensity : MonoBehaviour
 
     public void Intensity(float intens)
     {
+         
         foreach (ParticleSystem particle in particleSystem)
         {
             ParticleSystem.EmissionModule emission;
             emission = particle.emission;
-            emission.rateOverTime = intens;
-            intens += 5;
+            float emissionRate = emission.rateOverTime.constantMax;           
+            emission.rateOverTime =  emissionRate + intens;
         }
+        
     }
 
 }
