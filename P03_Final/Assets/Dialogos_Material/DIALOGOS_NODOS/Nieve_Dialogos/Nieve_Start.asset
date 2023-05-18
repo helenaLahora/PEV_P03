@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64429343c25fdb4abe8a5dbe0eb1568, type: 3}
+  m_Name: Nieve_Start
+  m_EditorClassIdentifier: 
+  Name: "BUDA DE INVIERNO; Vaya, me has encontrado. Debe haberte resultado f\xE1cil. 
+    A decir verdad no he puesto mucho esfuerzo en escondeme, pero no creo que te
+    resulte igual de sencillo encontrar a los dem\xE1s Budas."
+  StartNode: {fileID: 0}
